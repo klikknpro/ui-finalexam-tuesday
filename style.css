@@ -87,4 +87,9 @@ header .menu-icon {
   font-size: 36px;
   color: var(--primary);
 }
+
+section {
+  max-width: 1200px;
+  margin: 150px auto;
+}
 /*# sourceMappingURL=style.css.map */
