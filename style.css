@@ -74,6 +74,7 @@ header {
   width: 100%;
   height: 60px;
   padding: 15px;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,9 +152,24 @@ button {
   position: absolute;
   right: -7px;
   bottom: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--secondary);
-  border: 1px solid #145434;
+  border: 2px solid #145434;
   color: var(--primary);
   font-size: 14px;
+}
+
+button .arrow-icon {
+  position: absolute;
+  right: 5px;
+  font-size: 36px;
+}
+
+button:hover {
+  background-color: var(--primary);
+  border: 2px solid #ffeedf;
+  color: var(--secondary);
 }
 /*# sourceMappingURL=style.css.map */
