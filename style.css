@@ -88,8 +88,13 @@ header .menu-icon {
   color: var(--primary);
 }
 
-section {
+.flexbox-container {
   max-width: 1200px;
-  margin: 150px auto;
+  margin: 150px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
 }
 /*# sourceMappingURL=style.css.map */
