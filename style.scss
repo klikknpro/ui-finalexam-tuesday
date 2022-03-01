@@ -116,6 +116,25 @@ header {
   color: var(--secondary);
 }
 
+.index {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  color: var(--primary);
+
+  border: 2px solid #145434;
+  border-radius: 20px;
+  background-color: var(--secondary);
+}
+
 button {
   width: 200px;
   height: 50px;
