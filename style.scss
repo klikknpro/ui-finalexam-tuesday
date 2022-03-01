@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -42,18 +41,21 @@ input,
 textarea,
 select {
   appearance: none !important;
-  -webkit-appearance: none !important;
-  /* safari, opera, chrome miatt */
+  -webkit-appearance: none !important; /* safari, opera, chrome miatt */
   border-radius: 0;
 }
 
 /* CSS reset */
+
 /*
 #ffeedf
 #145434
 font-family: 'Space Grotesk', sans-serif;
 .material-icons
 */
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
 * {
   font-family: "Space Grotesk", sans-serif;
 }
@@ -61,4 +63,3 @@ font-family: 'Space Grotesk', sans-serif;
 body {
   background-color: #ffeedf;
 }
-/*# sourceMappingURL=style.css.map */
